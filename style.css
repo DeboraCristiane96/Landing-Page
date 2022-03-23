@@ -18,7 +18,10 @@ body{
 
 }
 .cabeçalho-imagem{
-    height: 72px;
+    height: 20px;
+    display: block;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 25);
+    border-radius: 18px;
 }
 .cabeçalho-menu{
     display: flex;
@@ -59,11 +62,12 @@ font-size: 18px;
     font-size: 24px;
 }
 .botao-down{
-    font-family: 'Sarala',sans-serif;
+
+    font-family:'Sarala',sans-serif;
     color:#161615;
     font-weight: 400;
     font-size: 20px;
-    box-shadow: 4px 5px 4px rgba(0, 0, 0, 25);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 25);
     border-radius: 18px;
 }
 .conteudo-imagem-principal{
@@ -77,12 +81,26 @@ font-size: 18px;
     margin-top: 48px;
 }
 .conteudo-secundario-titulo{
+    font-family: 'Sarala',sans-serif;
+    color:#161615;
     border-top: 0.4px solid #0f0f0f;
-    padding-top: 45px;
+    padding-top: 48px;
 }
 .conteudo-secundario-paragrafo{
     font-family: 'Sarala',sans-serif;
     color:#161615;
     font-weight: 400;
     font-size: 24px;
+}
+
+.rodape{
+    padding: 32px;
+    border-top:0.4px solid #000000;
+}
+.conteudo-logo{
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 25);
+    border-radius: 18px;
 }
